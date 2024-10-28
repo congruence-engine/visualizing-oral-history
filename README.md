@@ -12,7 +12,7 @@ This experimental work was developed within three major iterations between July 
 ## 1)Overarching question
 Can the advancements in Natural Language Processing help to unlock the knowledge enclosed in Oral History archives and connect them with other sources?
 
-## 2)Secondary question each iteration
+## 2)Secondary questions
 
 ### First iteration
 •	How useful are oral histories in linking heritage collections?
