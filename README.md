@@ -23,23 +23,35 @@ Can the advancements in Natural Language Processing help to unlock the knowledge
 •	Can visual analytics enable a different perspective on archives and their curatorial processes?
 
 
-### Third iteration
-•	How can we include the orality of the material into the process, enabling users to listen to the original audio recordings?
-•	How can we surface the nonverbal, paralinguistic information such as the tone of voice, the rhythm of the conversation, pauses and silences, which are a fundamental element of any oral history interview?
-•	What can be the role of Oral Historians in making sense of the automatic generated topics and reviewing the matching functionality?
-•	How can we embed historical knowledge into the development of the interface, and how can this inform the design of visualizations?
-
-
 
 ## People
 
+### First iteration
+
 **Stefania Zardini Lacedelli**: Conceptualization, Methodology, Investigation, Data Curation, Project administration, Visualization, Writing
+
+**Tim Smith**: Investigation, Data Curation, Visualization, Resources
+
+**Simon Popple**: Investigation, Data Curation, Visualization
+
+**Paul Craddock**; Investigation, Data Curation, Visualization
+
+**Maggie Smith**: Resources
+
+**Elizabeth Llabres**: Resources
+
+**John Ashton**: Resources
+
+
+### Second iteration
 
 **Stef De Sabbata**: Conceptualization, Methodology, Investigation, Data Curation, Formal analysis, Visualization, Software, Writing
 
-**Alex Butterworth**: Conceptualization, Methodology, Investigation, Data Curation, Formal Analysis, Visualization, Writing
+**Stefania Zardini Lacedelli**: Conceptualization, Methodology, Investigation, Data Curation, Project administration, Visualization, Writing
 
-**Andrew Richardson**: Methodology, Investigation, Data Curation, Visualization, Software, Writing
+**Alex Butterworth**: Methodology, Investigation, Data Curation, Writing
+
+**Andrew Richardson**: Methodology, Investigation
 
 **Colin Hyde**: Resources, Data Curation
 
@@ -47,25 +59,11 @@ Can the advancements in Natural Language Processing help to unlock the knowledge
 
 **Daniel Belteki**: Investigation, Data Curation
 
-**Tim Smith**: Investigation, Resources
-
-**Simon Popple**: Investigation, Data Curation
-
-**Paul Craddock**; Investigation
-
 **Neslihan Suzen**: Software
 
 **Felix Needham-Simpson**: Data Curation
 
 **Alison Clague**: Resources
-
-**Elizabeth Llabres**: Resources
-
-**John Ashton**: Resources
-
-**Olivia Johnston**: Resources
-
-**Maggie Smith**: Resources
 
 **Julia Ankenbrand**: Resources
 
@@ -74,14 +72,15 @@ Can the advancements in Natural Language Processing help to unlock the knowledge
 
 ## Data sources
 
-### First iteration: the Saltaire Collection of life stories
+### First iteration
+### The Saltaire Collection of life stories
 A group of stories of living and working in Saltaire, collected, recorded and transcribed by Collection volunteers. For the purpose of the investigation, one transcribed life story was used.
+
+### Bradford Heritage Recording Unit
+A major project set up by Bradford Museums, Galleries and Libraries from 1983 to 2006 with the aim of capturing the memories, reflections, contemporary attitudes and images of Bradford people of all ages, classes and races. For the purpose of this investigation, 800 audio interviews (available as digital audio files) were collected, including a consistent corpus of life stories of individuals of European, Asian and Afro Caribbean origins who came to work in the textile industry.
 
 ### Second iteration: Mines of Memory
 A corpus of 23 mining interviews with mining workers at Snibston and Whitwick collieries, aimed at enhancing the interpretation of the mining collections of the Snibston Museum. Once the museum closed in 2016, the interviews - comprising both digital audio files and digitized transcripts – were made available as part of the East Midlands Oral History Archive. As part of the investigation, the museum collection data was also collected from Leicestershire County Council.
-
-### Third iteration: Bradford Heritage Recording Unit
-A major project set up by Bradford Museums, Galleries and Libraries from 1983 to 2006 with the aim of capturing the memories, reflections, contemporary attitudes and images of Bradford people of all ages, classes and races. For the purpose of this investigation, 800 audio interviews (available as digital audio files) were collected, including a consistent corpus of life stories of individuals of European, Asian and Afro Caribbean origins who came to work in the textile industry.
 
 ## Investigation methods/ tools/ code/ software (used or developed)
 
@@ -105,9 +104,6 @@ Two digital narratives were created on two digital platforms – Omeka and Yarn 
 
 ### Second iteration
 A proof-of-concept interactive dashboard which allows users to explore a web of automatic-generated topics from the Mines of Memory and visualize the connections of specific sections of the interviews with museum objects from the Snibston Museum. In a first visualization, the interviews are represented as bars, each splitted into one section per paragraph. Clicking on a bar section activates a side section where the transcription and a suggested matched object from the museum collection is shown. In a second visualization, the sentences are represented as dots, which are arranged on the screen based on their similarity, thus allowing the user to manually identify interesting groupings.
-
-### Third iteration
-An enhanced exploratory Data Visualisation interface which allows to select, filter and view Topics and Entities created from a combination of topic modelling and manual annotations via OpenRefine. Further additions are the ability to play the original audio sources (indexed to time-coded metadata) and the opportunity to move between different levels of granularity (‘Overview’, ‘Speech event’, ‘Sentences’), getting a sense of the paralinguistic elements of the conversation (rhythm, pace, pauses).
 
 
   
