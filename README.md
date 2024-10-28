@@ -90,9 +90,6 @@ Named Entity Recognition, Fuzzy Matching, Manual Annotation, Digital Curatorial 
 ### Second iteration: The Visualizing Oral History pipeline 
 Speech to Text (OpenAI Whisper), Topic Modelling (LLM-based), Visual Analytics (Plotly and Dash python libraries)
 
-### Third iteration: Towards an explorable, scalable Data Visualization Interface
-Trained Named Entity Extraction, Entity Relation Extraction, SpaCyFishing and QCode Linkage, Geoparsing, Token probability analysis
-
 A full description of each stage of the pipeline (and related code developed) is available in the repository.
 
 
