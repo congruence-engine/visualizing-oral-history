@@ -1,0 +1,22 @@
+# To create the conda environment, run the following commands:
+#
+# conda env create -f conda-env_llm-cuda-12-1.yml
+# conda activate llm-cuda-12-1
+#
+# pip install flair sentence-transformers transformers bertopic
+# pip install einops
+# pip install polars
+#
+name: llm-cuda-12-1
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - huggingface
+dependencies:
+  - python
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio 
+  - pytorch::pytorch-cuda=12.1
+  - pandas

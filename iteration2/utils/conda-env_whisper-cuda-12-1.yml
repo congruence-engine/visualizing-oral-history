@@ -1,0 +1,20 @@
+# To create the conda environment, run the following commands:
+#
+# conda env create -f conda-env_whisper-cuda-12-1.yml
+# conda activate whisper-cuda-12-1
+#
+# pip install git+https://github.com/openai/whisper.git
+#
+name: whisper-cuda-12-1
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - huggingface
+dependencies:
+  - python
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio 
+  - pytorch::pytorch-cuda=12.1
+  - pandas
